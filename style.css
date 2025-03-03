@@ -1,348 +1,161 @@
+/* 适配移动端基础布局 */
 body {
-    overflow-y: auto;
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
-    transform: scale(0.9);
-    transform-origin: top left;
-    width: 111.1%;
-}
-
-
-
-.logo-title {
-    display: flex;
-    align-items: center; 
-    gap: 10px;
-    flex-shrink: 0;
-}
-
-.logo {
-    height: 50px; 
-    width: auto;
-
-}
-
-.deleteRow {
-    background-color: #2374AB;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 100%;
     width: 100%;
-}
-
-
-.deleteRow:hover {
-    background-color: darkred;
-}
-
-input:-webkit-autofill {
-    color: gray !important; 
-    background-color: black !important; 
-    border: 1px solid gray !important; 
-}
-
-input:focus {
-    color: white !important; 
-}
-
-
-
-.input-group {
-    display: flex;
-    gap: 10px;
-    align-items: center; 
-    margin-left: auto;
-    margin-right: auto;
-}
-
-input {
-    padding: 5px;
-    font-size: 14px;
-    border-radius: 5px; 
-    border: 1px solid #2374AB;
-    background-color: #252525;
-    color: white;
-}
-
-button {
-    padding: 5px 10px;
-    background-color: #2374AB;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: #1A5A8A;
-}
-
-h1 {
-    color: #2374AB;
-    font-size: 24px;
-    margin: 0;
-
-}
-
-h3 {
-    color:#2374AB;
-}
-
-th, td {
-    border: 1px solid #2374AB; 
-    padding: 10px;
-    text-align: center;
-    color: #E0E0E0;
-}
-
-th {
-    background-color: #2374AB; 
-    color: #FFFFFF;
-}
-
-body {
+    font-size: 16px;
     background-color: #121212; 
     color: #E0E0E0; 
-    font-family: Arial, sans-serif; 
-    margin: 0;
-    padding: 80px 20px 20px; 
+    font-family: Arial, sans-serif;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    background-color: #252525; 
+/* 让 App 界面更有间距感 */
+.container {
+    padding: 15px;
 }
 
-#client_name {
-    margin-top: 0px; 
-    font-size: 18px;
-    font-weight: bold;
-}
-
+/* 头部固定，适配手机 */
 .fixed-header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     background-color: black;
-    padding: 10px;
+    padding: 12px 15px;
     z-index: 1000;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
-    flex-wrap: nowrap;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
 }
 
-.section-content {
-    background-color: #1E1E1E; 
-    padding: 30px;
-    border-radius: 8px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin: auto;
-    width: 90%;
-    margin-top: 50px;
-    margin-left: auto;
+/* 让页面内容不会被头部遮挡 */
+body {
+    padding-top: 60px;
 }
 
+/* LOGO 适配移动端 */
+.logo-title {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
 
-#resultTable {
+.logo {
+    height: 40px; 
+    width: auto;
+}
+
+/* 适配小屏幕按钮 */
+button {
+    padding: 10px;
+    background-color: #2374AB;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #1A5A8A;
+}
+
+/* 表格适配手机，增加滚动 */
+table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 0px; 
+    background-color: #252525;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 
-
-#tableBody {
-    min-height: 200px; 
+th, td {
+    border: 1px solid #2374AB; 
+    padding: 12px;
+    text-align: center;
+    color: #E0E0E0;
 }
 
-.dim {
-    opacity: 0.3;  
-    transition: opacity 0.3s ease-in-out;
+th {
+    background-color: #2374AB; 
+    color: white;
 }
 
+/* 表格滚动 */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+/* 输入框适配移动端 */
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #2374AB;
+    background-color: #252525;
+    color: white;
+    margin-top: 8px;
+}
+
+textarea {
+    min-height: 60px;
+    resize: vertical;
+}
+
+/* 搜索按钮 */
 #searchButton1 {
-    padding: 8px 16px;
+    padding: 12px;
     background-color: #007bff; 
     color: white;
     border: none;
-    border-radius: 4px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
 }
 
 #searchButton1:hover {
     background-color: #0056b3;
 }
 
-.search-container {
-    position: absolute;
-    right: 0; 
-    top: 50%;
-    transform: translateY(-50%); 
+/* 让输入框组适配小屏幕 */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
-.table-button {
-    margin-top: 10px;
-    padding: 8px 15px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    position: relative;
-    left: 0;
-}
-
-.table-button:hover {
-    background-color: #0056b3;
-}
-
-.input-container {
-    position: relative;
-    display: inline-block;
-}
-
-#clientInput {
-    #clientInput {
-        padding: 5px; 
-        font-size: 14px; 
-        border-radius: 5px;
-        border: 1px solid #2374AB;
-        background-color: #252525; 
-        color: white; 
-        height: 30px; 
-        width: 100px; 
-        text-align: center; 
+/* 响应式：适配不同设备 */
+@media screen and (min-width: 600px) {
+    /* 600px 以上：表单居中，保持 PC 端显示 */
+    .input-group {
+        flex-direction: row;
+        justify-content: center;
     }
-    
+
+    button, input, select, textarea {
+        max-width: 400px;
+    }
 }
 
-.lock-icon {
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    display: none; 
-    color: #000000;
+@media screen and (max-width: 600px) {
+    /* 600px 以下：适配更小的屏幕 */
+    body {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px;
+    }
 }
-
-.lock-icon svg {
-    width: 20px;
-    height: 20px;
-}
-
-
-#clientInput[readonly] + .lock-icon {
-    display: inline-block;
-}
-
-.newButton {
-    margin-right: auto;
-
-}
-
-select {
-    background-color: #3a3a3a; 
-    color: white; 
-    border: 1px solid #555; 
-    border-radius: 5px; 
-    padding: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-
-select:hover {
-    background-color: #4a4a4a; 
-}
-
-
-select:focus, select:active {
-    background-color: white;
-    color: black;
-    border: 1px solid #007bff; 
-}
-
-select option {
-    background: white;
-    color: black;
-}
-
-select:disabled {
-    background-color: #888;
-    color: #ccc;
-    cursor: not-allowed;
-}
-
-.remarkTextarea {
-    background-color: #3a3a3a; 
-    color: white;
-    border: 1px solid #555;
-    border-radius: 5px;
-    padding: 5px;
-    width: 95%;
-    min-height: 30px; 
-    resize: vertical; 
-    overflow-y: auto; 
-    transition: all 0.3s ease;
-    white-space: pre-wrap;
-    font-size: 16px;
-    font-family: "Microsoft YaHei", sans-serif;; 
-}
-
-
-.remarkTextarea:hover {
-    background-color: #4a4a4a;
-}
-
-
-.remarkTextarea:focus {
-    background-color: white;
-    color: black;
-    border: 1px solid #007bff;
-}
-
-.statusSelect {
-    background-color: #3a3a3a; 
-    color: white; 
-    border: 1px solid #555;
-    border-radius: 5px; 
-    padding: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease; 
-}
-
-.statusSelect:hover {
-    background-color: #4a4a4a;
-}
-
-.statusSelect.urgent {
-    background-color: #ff4d4d !important; 
-    color: white; 
-    border: 1px solid red; 
-    font-weight: bold;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-

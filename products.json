@@ -1,0 +1,2231 @@
+[    
+    {
+        "category": "ECONOMY CASEMENT WINDOW",
+        "name": "外框",
+        "profile_no": 30001,
+        "weight": 0.288,
+        "length": 6.10,
+        "ap_mm": 226.42,
+        "thk_mm": 0.85,
+        "mf": 0   
+    },
+
+    {
+        "category": "ECONOMY CASEMENT WINDOW",
+        "name": "中骨",
+        "profile_no": 30002,
+        "weight": 0.465,
+        "length": 6.10,
+        "ap_mm": 251.21,
+        "thk_mm": 0.82,
+        "mf": 0        
+    },
+
+    {
+        "category": "ECONOMY CASEMENT WINDOW",
+        "name": "内框",
+        "profile_no": 30003,
+        "weight": 0.441,
+        "length": 6.10,
+        "ap_mm": 246.48,
+        "thk_mm": 0.85,
+        "mf": 0        
+    },
+
+    {
+        "category": "ECONOMY CASEMENT WINDOW",
+        "name": "盖",
+        "profile_no": 30004,
+        "weight": 0.124,
+        "length": 6.10,
+        "ap_mm": 109.28,
+        "thk_mm": 0.80,
+        "mf": 0        
+    },
+
+    {
+        "category": "ECONOMY CASEMENT WINDOW",
+        "name": "打格料",
+        "profile_no": 30006,
+        "weight": 0.210,
+        "length": 6.10,
+        "ap_mm": 162.55,
+        "thk_mm": 0.95,
+        "mf": 0
+               
+    },
+
+    {
+        "category": "ECONOMY SLIDING WINDOW",
+        "name": "外框顶",
+        "profile_no": 30021,
+        "weight": 0.386,
+        "length": 6.10,
+        "ap_mm": 306.32,
+        "thk_mm": 0.90,
+        "mf": 0        
+    },
+
+    {
+        "category": "ECONOMY SLIDING WINDOW",
+        "name": "外框底",
+        "profile_no": 30022,
+        "weight": 0.319,
+        "length": 6.10,
+        "ap_mm": 248.98,
+        "thk_mm": 0.90,
+        "mf": 0        
+    },
+
+    {
+        "category": "ECONOMY SLIDING WINDOW",
+        "name": "外企",
+        "profile_no": 30023,
+        "weight": 0.280,
+        "length": 6.10,
+        "ap_mm": 230.26,
+        "thk_mm": 0.90,
+        "mf": 0        
+    },
+
+    {
+        "category": "ECONOMY SLIDING WINDOW",
+        "name": "内框顶",
+        "profile_no": 30024,
+        "weight": 0.229,
+        "length": 6.10,
+        "ap_mm": 182.35,
+        "thk_mm": 0.90,
+        "mf": 0        
+    },
+
+    {
+        "category": "ECONOMY SLIDING WINDOW",
+        "name": "内框底",
+        "profile_no": 30025,
+        "weight": 0.305,
+        "length": 6.10,
+        "ap_mm": 249.19,
+        "thk_mm": 0.90,
+        "mf": 0        
+    },
+
+    {
+        "category": "ECONOMY SLIDING WINDOW",
+        "name": "有勾",
+        "profile_no": 30026,
+        "weight": 0.290,
+        "length": 6.10,
+        "ap_mm": 178.51,
+        "thk_mm": 0.90,
+        "mf": 0        
+    },
+
+    {
+        "category": "ECONOMY SLIDING WINDOW",
+        "name": "无勾",
+        "profile_no": 30027,
+        "weight": 0.239,
+        "length": 6.10,
+        "ap_mm": 136.20,
+        "thk_mm": 0.90,
+        "mf": 0   
+    },
+
+    {
+        "category": "ECONOMY SLIDING WINDOW",
+        "name": "H/I BAR",
+        "profile_no": 30028,
+        "weight": 0.139,
+        "length": 6.10,
+        "ap_mm": 115.12,
+        "thk_mm": 0.90,
+        "mf": 0        
+    },
+
+    {
+        "category": "ECONOMY SLIDING WINDOW",
+        "name": "单路外顶",
+        "profile_no": 30029,
+        "weight": 0.235,
+        "length": 6.10,
+        "ap_mm": 190.20,
+        "thk_mm": 0.90,
+        "mf": 0        
+    },
+
+    {
+        "category": "ECONOMY SLIDING WINDOW",
+        "name": "单路外底",
+        "profile_no": 30030,
+        "weight": 0.170,
+        "length": 6.10,
+        "ap_mm": 135.85,
+        "thk_mm": 0.90,
+        "mf": 0        
+    },
+
+    {
+        "category": "ECONOMY SLIDING WINDOW",
+        "name": "单路外企",
+        "profile_no": 30031,
+        "weight": 0.197,
+        "length": 6.10,
+        "ap_mm": 162.21,
+        "thk_mm": 0.90,
+        "mf": 0        
+    },
+
+    {
+        "category": "ECONOMY SLIDING WINDOW",
+        "name": "3路外顶",
+        "profile_no": 30032,
+        "weight": 0.638,
+        "length": 6.10,
+        "ap_mm": 354.04,
+        "thk_mm": 1.05,
+        "mf": 0        
+    },
+
+    {
+        "category": "ECONOMY SLIDING WINDOW",
+        "name": "3路外底",
+        "profile_no": 30033,
+        "weight": 0.520,
+        "length": 6.10,
+        "ap_mm": 354.04,
+        "thk_mm": 1.05,
+        "mf": 0        
+    },
+
+    {
+        "category": "ECONOMY SLIDING WINDOW",
+        "name": "3路外企",
+        "profile_no": 30034,
+        "weight": 0.455,
+        "length": 6.10,
+        "ap_mm": 321.62,
+        "thk_mm": 1.05,
+        "mf": 0        
+    },
+
+    {
+        "category": "ECONOMY SLIDING DOOR",
+        "name": "外框顶",
+        "profile_no": 30057,
+        "weight": 0.493,
+        "length": 6.10,
+        "ap_mm": 354.62,
+        "thk_mm": 0.95,
+        "mf": 0        
+    },
+
+    {
+        "category": "ECONOMY SLIDING DOOR",
+        "name": "外底",
+        "profile_no": 30058,
+        "weight": 0.410,
+        "length": 6.10,
+        "ap_mm": 293.86,
+        "thk_mm": 1.00,
+        "mf": 0        
+    },
+
+    {
+        "category": "ECONOMY SLIDING DOOR",
+        "name": "外企",
+        "profile_no": 30059,
+        "weight": 0.361,
+        "length": [4.34,4.88],
+        "ap_mm": 267.90,
+        "thk_mm": 1.00,
+        "mf": 0        
+    },
+
+    {
+        "category": "ECONOMY SLIDING DOOR",
+        "name": "内顶",
+        "profile_no": 30060,
+        "weight": 0.276,
+        "length": 6.10,
+        "ap_mm": 201.80,
+        "thk_mm": 0.90,
+        "mf": 0        
+    },
+
+    {
+        "category": "ECONOMY SLIDING DOOR",
+        "name": "内底",
+        "profile_no": 30061,
+        "weight": 0.437,
+        "length": 6.10,
+        "ap_mm": 337.56,
+        "thk_mm": 1.05,
+        "mf": 0        
+    },
+
+    {
+        "category": "ECONOMY SLIDING DOOR",
+        "name": "有勾",
+        "profile_no": 30062,
+        "weight": 0.430,
+        "length": [4.34,4.88],
+        "ap_mm": 227.69,
+        "thk_mm": 1.00,
+        "mf": 0        
+    },
+
+    {
+        "category": "ECONOMY SLIDING DOOR",
+        "name": "无勾",
+        "profile_no": 30063,
+        "weight": 0.441,
+        "length": [4.34,4.88],
+        "ap_mm": 207.58,
+        "thk_mm": 1.00,
+        "mf": 0        
+    },
+
+    {
+        "category": "ECONOMY SLIDING DOOR",
+        "name": "H/I BAR",
+        "profile_no": 30064,
+        "weight": 0.179,
+        "length": [4.34,4.88],
+        "ap_mm": 115.55,
+        "thk_mm": 1.10,
+        "mf": 0        
+    },
+
+    {
+        "category": "ECONOMY SLIDING DOOR",
+        "name": "单外顶",
+        "profile_no": 30065,
+        "weight": 0.302,
+        "length": 6.10,
+        "ap_mm": 218.77,
+        "thk_mm": 1.00,
+        "mf": 0        
+    },
+
+    {
+        "category": "ECONOMY SLIDING DOOR",
+        "name": "单外底",
+        "profile_no": 30066,
+        "weight": 0.219,
+        "length": 6.10,
+        "ap_mm": 158.33,
+        "thk_mm": 1.00,
+        "mf": 0        
+    },
+
+    {
+        "category": "ECONOMY SLIDING DOOR",
+        "name": "单外企",
+        "profile_no": 30067,
+        "weight": 0.252,
+        "length": [4.34,4.88],
+        "ap_mm": 187.50,
+        "thk_mm": 1.00,
+        "mf": 0        
+    },
+
+    {
+        "category": "ECONOMY SLIDING DOOR",
+        "name": "3路外企",
+        "profile_no": 30068,
+        "weight": 0.483,
+        "length": [4.34,4.88],
+        "ap_mm": 341.97,
+        "thk_mm": 1.05,
+        "mf": 0        
+    },
+
+    {
+        "category": "STANDARD SLIDING DOOR",
+        "name": "外顶",
+        "profile_no": 30045,
+        "weight": 0.588,
+        "length": 6.10,
+        "ap_mm": 431.56,
+        "thk_mm": 1.00,
+        "mf": 0        
+    },
+
+    {
+        "category": "STANDARD SLIDING DOOR",
+        "name": "外底",
+        "profile_no": 30046,
+        "weight": 0.494,
+        "length": 6.10,
+        "ap_mm": 351.90,
+        "thk_mm": 1.00,
+        "mf": 0        
+    },
+
+    {
+        "category": "STANDARD SLIDING DOOR",
+        "name": "外企",
+        "profile_no": 30047,
+        "weight": 0.454,
+        "length": [4.34,4.88],
+        "ap_mm": 337.96,
+        "thk_mm": 1.00,
+        "mf": 0        
+    },
+
+    {
+        "category": "STANDARD SLIDING DOOR",
+        "name": "内顶",
+        "profile_no": 30048,
+        "weight": 0.326,
+        "length": 6.10,
+        "ap_mm": 244.87,
+        "thk_mm": 1.00,
+        "mf": 0        
+    },
+
+    {
+        "category": "STANDARD SLIDING DOOR",
+        "name": "内底",
+        "profile_no": 30049,
+        "weight": 0.619,
+        "length": 6.10,
+        "ap_mm": 459.95,
+        "thk_mm": 1.00,
+        "mf": 0        
+    },
+
+    {
+        "category": "STANDARD SLIDING DOOR",
+        "name": "有勾",
+        "profile_no": 30050,
+        "weight": 0.538,
+        "length": [4.34,4.88],
+        "ap_mm": 297.84,
+        "thk_mm": 1.00,
+        "mf": 0        
+    },
+
+    {
+        "category": "STANDARD SLIDING DOOR",
+        "name": "无勾",
+        "profile_no": 30051,
+        "weight": 0.520,
+        "length": [4.34,4.88],
+        "ap_mm": 252.58,
+        "thk_mm": 1.00,
+        "mf": 0        
+    },
+
+    {
+        "category": "STANDARD SLIDING DOOR",
+        "name": "H/I BAR",
+        "profile_no": 30052,
+        "weight": 0.237,
+        "length": [4.34,4.88],
+        "ap_mm": 177.01,
+        "thk_mm": 1.00,
+        "mf": 0        
+    },
+
+    {
+        "category": "STANDARD SLIDING DOOR",
+        "name": "单外顶",
+        "profile_no": 30053,
+        "weight": 0.377,
+        "length": 6.10,
+        "ap_mm": 261.80,
+        "thk_mm": 1.05,
+        "mf": 0        
+    },
+
+    {
+        "category": "STANDARD SLIDING DOOR",
+        "name": "单外底",
+        "profile_no": 30054,
+        "weight": 0.259,
+        "length": 6.10,
+        "ap_mm": 177.51,
+        "thk_mm": 1.05,
+        "mf": 0        
+    },
+
+    {
+        "category": "STANDARD SLIDING DOOR",
+        "name": "单外企",
+        "profile_no": 30055,
+        "weight": 0.321,
+        "length": [3.34,4.88],
+        "ap_mm": 219.04,
+        "thk_mm": 1.10,
+        "mf": 0        
+    },
+
+    {
+        "category": "STANDARD SLIDING DOOR",
+        "name": "3路外企",
+        "profile_no": 30056,
+        "weight": 0.738,
+        "length": [4.34,4.88],
+        "ap_mm": 421.50,
+        "thk_mm": 1.30,
+        "mf": 0        
+    },
+
+    {
+        "category": "STANDARD SWING DOOR",
+        "name": "4寸内框",
+        "profile_no": 30133,
+        "weight": 1.031,
+        "length": 6.10,
+        "ap_mm": 365.18,
+        "thk_mm": 1.25,
+        "mf": 0        
+    },
+
+    {
+        "category": "STANDARD SWING DOOR",
+        "name": "4寸内框",
+        "profile_no": 30251,
+        "weight": 0.817,
+        "length": 6.10,
+        "ap_mm": 362.48,
+        "thk_mm": 1.00,
+        "mf": 0        
+    },
+
+    {
+        "category": "STANDARD SWING DOOR",
+        "name": "外框",
+        "profile_no": 30130,
+        "weight": 0.639,
+        "length": 6.10,
+        "ap_mm": 212.74,
+        "thk_mm": 1.10,
+        "mf": 0        
+    },
+
+    {
+        "category": "HIGH PERFORMANCE CASEMENT WINDOW",
+        "name": "外框",
+        "profile_no": 30137,
+        "weight": 0.668,
+        "length": 6.10,
+        "ap_mm": 282.40,
+        "thk_mm": 1.30,
+        "mf": 0,
+        "na": 0       
+         
+    },
+
+    {
+        "category": "HIGH PERFORMANCE CASEMENT WINDOW",
+        "name": "中骨",
+        "profile_no": 30138,
+        "weight": 0.933,
+        "length": 6.10,
+        "ap_mm": 382.42,
+        "thk_mm": 1.30,
+        "mf": 0,       
+        "na": 0 
+    },
+
+    {
+        "category": "HIGH PERFORMANCE CASEMENT WINDOW",
+        "name": "1内框",
+        "profile_no": 30140,
+        "weight": 0.832,
+        "length": 6.10,
+        "ap_mm": 382.42,
+        "thk_mm": 1.30,
+        "mf": 0, 
+        "na": 0       
+    },
+
+    {
+        "category": "HIGH PERFORMANCE CASEMENT WINDOW",
+        "name": "2内框",
+        "profile_no": 30252,
+        "weight": 0.877,
+        "length": 6.10,
+        "ap_mm": 287.69,
+        "thk_mm": 1.30,
+        "mf": 0,
+        "na": 0        
+    },
+
+    {
+        "category": "HIGH PERFORMANCE CASEMENT WINDOW",
+        "name": "盖",
+        "profile_no": 30141,
+        "weight": 0.242,
+        "length": 6.10,
+        "ap_mm": 177.74,
+        "thk_mm": 1.00,
+        "mf": 0,
+        "na": 0        
+    },
+
+    {
+        "category": "HIGH PERFORMANCE CASEMENT WINDOW",
+        "name": "Lock bar",
+        "profile_no": 30166,
+        "weight": 0.126,
+        "length": 5.80,
+        "ap_mm": 45.90,
+        "thk_mm": 2.30,
+        "mf": 0,
+        "na": 0        
+    },
+
+    {
+        "category": "HIGH PERFORMANCE CASEMENT WINDOW",
+        "name": "钢网(NETTING)",
+        "profile_no": 30144,
+        "weight": 0.812,
+        "length": 6.10,
+        "ap_mm": 270.40,
+        "thk_mm": 1.30,
+        "mf": 0,
+        "na": 0        
+    },
+
+    {
+        "category": "HIGH PERFORMANCE CASEMENT WINDOW",
+        "name": "钢网盖(NETTING)",
+        "profile_no": 30168,
+        "weight": 0.161,
+        "length": 6.10,
+        "ap_mm": 101.64,
+        "thk_mm": 1.20,
+        "mf": 0,
+        "na": 0        
+    },
+
+    {
+        "category": "HIGH PERFORMANCE SLIDING WINDOW",
+        "name": "2路外框(NETTING)",
+        "profile_no": 30146,
+        "weight": 0.842,
+        "length": 6.10,
+        "ap_mm": 349.05,
+        "thk_mm": 1.25,
+        "mf": 0,
+        "na": 0        
+    },
+
+    {
+        "category": "HIGH PERFORMANCE SLIDING WINDOW",
+        "name": "3路外框",
+        "profile_no": 30147,
+        "weight": 0.997,
+        "length": 6.10,
+        "ap_mm": 349.05,
+        "thk_mm": 1.25,
+        "mf": 0,
+        "na": 0        
+    },
+
+    {
+        "category": "HIGH PERFORMANCE SLIDING WINDOW",
+        "name": "内框",
+        "profile_no": 30148,
+        "weight": 0.506,
+        "length": 6.10,
+        "ap_mm": 298.79,
+        "thk_mm": 1.20,
+        "mf": 0,
+        "na": 0        
+    },
+
+    {
+        "category": "HIGH PERFORMANCE SLIDING WINDOW",
+        "name": "勾",
+        "profile_no": 30149,
+        "weight": 0.249,
+        "length": 6.10,
+        "ap_mm": 148.96,
+        "thk_mm": 1.20,
+        "mf": 0,
+        "na": 0        
+    },
+
+    {
+        "category": "HIGH PERFORMANCE SLIDING WINDOW",
+        "name": "Inner Joint/H Bar",
+        "profile_no": 30150,
+        "weight": 0.158,
+        "length": 6.10,
+        "ap_mm": 75.59,
+        "thk_mm": 1.10,
+        "mf": 0,
+        "na": 0        
+    },
+
+    {
+        "category": "HIGH PERFORMANCE SLIDING WINDOW",
+        "name": "钢网内框（NETTING)",
+        "profile_no": 30151,
+        "weight": 0.509,
+        "length": 6.10,
+        "ap_mm": 301.45,
+        "thk_mm": 1.20,
+        "mf": 0,
+        "na": 0        
+    },
+
+    {
+        "category": "HIGH PERFORMANCE SLIDING WINDOW",
+        "name": "钢网盖(NETTING)",
+        "profile_no": 30152,
+        "weight": 0.168,
+        "length": 6.10,
+        "ap_mm": 105.75,
+        "thk_mm": 1.15,
+        "mf": 0,
+        "na": 0        
+    },
+
+    {
+        "category": "HIGH PERFORMANCE SLIDING DOOR",
+        "name": "外框",
+        "profile_no": 30153,
+        "weight": 1.249,
+        "length": 6.10,
+        "ap_mm": 395.25,
+        "thk_mm": 1.20,
+        "mf": 0,
+        "na": 0        
+    },
+
+    {
+        "category": "HIGH PERFORMANCE SLIDING DOOR",
+        "name": "内框",
+        "profile_no": "30154A",
+        "weight": 1.181,
+        "length": 6.10,
+        "ap_mm": 379.87,
+        "thk_mm": 1.35,
+        "mf": 0,
+        "na": 0        
+    },
+
+    {
+        "category": "HIGH PERFORMANCE SLIDING DOOR",
+        "name": "有勾",
+        "profile_no": 30155,
+        "weight": 0.449,
+        "length": 6.10,
+        "ap_mm": 213.69,
+        "thk_mm": 1.60,
+        "mf": 0,
+        "na": 0        
+    },
+
+    {
+        "category": "HIGH PERFORMANCE SLIDING DOOR",
+        "name": "H/I BAR (4 door use)",
+        "profile_no": 30156,
+        "weight": 0.259,
+        "length": 6.10,
+        "ap_mm": 117.13,
+        "thk_mm": 1.80,
+        "mf": 0,
+        "na": 0        
+    },
+
+    {
+        "category": "HIGH PERFORMANCE SLIDING DOOR",
+        "name": "单路外框",
+        "profile_no": 30157,
+        "weight": 0.622,
+        "length": 6.10,
+        "ap_mm": 210.38,
+        "thk_mm": 1.20,
+        "mf": 0,
+        "na": 0        
+    },
+
+    {
+        "category": "HIGH PERFORMANCE SLIDING DOOR",
+        "name": "钢网内框（NETTING)",
+        "profile_no": 30158,
+        "weight": 1.170,
+        "length": 6.10,
+        "ap_mm": 378.22,
+        "thk_mm": 1.35,
+        "mf": 0,
+        "na": 0        
+    },
+
+    {
+        "category": "HIGH PERFORMANCE SLIDING DOOR",
+        "name": "钢网盖 (NETTING)",
+        "profile_no": 30168,
+        "weight": 0.161,
+        "length": 6.10,
+        "ap_mm": 101.64,
+        "thk_mm": 1.20,
+        "mf": 0,
+        "na": 0        
+    },
+
+    {
+        "category": "HIGH PERFORMANCE FOLDING DOOR",
+        "name": "外顶",
+        "profile_no": 30160,
+        "weight": 1.955,
+        "length": 6.10,
+        "ap_mm": 473.33,
+        "thk_mm": 1.80,
+        "mf": 0,
+        "na": 0        
+    },
+
+    {
+        "category": "HIGH PERFORMANCE FOLDING DOOR",
+        "name": "外框底1",
+        "profile_no": 30161,
+        "weight": 0.857,
+        "length": 6.10,
+        "ap_mm": 251.02,
+        "thk_mm": 1.30,
+        "mf": 0,
+        "na": 0        
+    },
+
+    {
+        "category": "HIGH PERFORMANCE FOLDING DOOR",
+        "name": "外企",
+        "profile_no": 30162,
+        "weight": 0.910,
+        "length": 6.10,
+        "ap_mm": 220.77,
+        "thk_mm": 1.30,
+        "mf": 0,
+        "na": 0        
+
+    },
+
+    {
+        "category": "HIGH PERFORMANCE FOLDING DOOR",
+        "name": "内框",
+        "profile_no": "30163A",
+        "weight": 1.061,
+        "length": 6.10,
+        "ap_mm": 325.12,
+        "thk_mm": 1.35,
+        "mf": 0,
+        "na": 0        
+
+    },
+
+    {
+        "category": "HIGH PERFORMANCE FOLDING DOOR",
+        "name": "室外外底",
+        "profile_no": 30164,
+        "weight": 1.026,
+        "length": 6.10,
+        "ap_mm": 381.07,
+        "thk_mm": 1.70,
+        "mf": 0,
+        "na": 0        
+
+    },
+
+    {
+        "category": "HIGH PERFORMANCE FOLDING DOOR",
+        "name": "3室内外框底",
+        "profile_no": 30165,
+        "weight": 0.620,
+        "length": 6.10,
+        "ap_mm": 222.49,
+        "thk_mm": 1.80,
+        "mf": 0,
+        "na": 0        
+
+    },
+
+    {
+        "category": "HIGH PERFORMANCE FOLDING DOOR",
+        "name": "Lock Bar",
+        "profile_no": 30166,
+        "weight": 0.126,
+        "length": 5.80,
+        "ap_mm": 45.900,
+        "thk_mm": 2.30,
+        "mf": 0,
+        "na": 0        
+
+    },
+
+    {
+        "category": "HIGH PERFORMANCE FOLDING DOOR",
+        "name": "钢网内框 (NETTING)",
+        "profile_no": 30167,
+        "weight": 1.030,
+        "length": 6.10,
+        "ap_mm": 325.60,
+        "thk_mm": 1.35,
+        "mf": 0,
+        "na": 0        
+
+    },
+
+    {
+        "category": "HIGH PERFORMANCE FOLDING DOOR",
+        "name": "钢网盖 (NETTING)",
+        "profile_no": 30168,
+        "weight": 0.161,
+        "length": 6.10,
+        "ap_mm": 101.64,
+        "thk_mm": 1.20,
+        "mf": 0,
+        "na": 0        
+
+    },
+
+    {
+        "category": "HIGH PERFORMANCE FOLDING DOOR (CONCEALED)",
+        "name": "外顶",
+        "profile_no": 30231,
+        "weight": 1.989,
+        "length": 6.10,
+        "ap_mm": 434.39,
+        "thk_mm": 1.60,
+        "mf": 0,
+        "na": 0        
+
+    },
+
+    {
+        "category": "HIGH PERFORMANCE FOLDING DOOR (CONCEALED)",
+        "name": "外底",
+        "profile_no": 30232,
+        "weight": 0.895,
+        "length": 6.10,
+        "ap_mm": 269.67,
+        "thk_mm": 1.40,
+        "mf": 0,
+        "na": 0        
+
+    },
+
+    {
+        "category": "HIGH PERFORMANCE FOLDING DOOR (CONCEALED)",
+        "name": "外企",
+        "profile_no": 30233,
+        "weight": 0.927,
+        "length": 6.10,
+        "ap_mm": 279.27,
+        "thk_mm": 1.40,
+        "mf": 0,
+        "na": 0        
+
+    },
+
+    {
+        "category": "HIGH PERFORMANCE FOLDING DOOR (CONCEALED)",
+        "name": "外框中骨",
+        "profile_no": 30235,
+        "weight": 1.038,
+        "length": 6.10,
+        "ap_mm": 288.82,
+        "thk_mm": 1.40,
+        "mf": 0,
+        "na": 0        
+
+    },
+
+    {
+        "category": "HIGH PERFORMANCE FOLDING DOOR (CONCEALED)",
+        "name": "收口盖",
+        "profile_no": 30237,
+        "weight": 0.193,
+        "length": 6.10,
+        "ap_mm": 119.44,
+        "thk_mm": 1.20,
+        "mf": 0,
+        "na": 0        
+
+    },
+
+    {
+        "category": "HIGH PERFORMANCE FOLDING DOOR (CONCEALED)",
+        "name": "盖",
+        "profile_no": 30236,
+        "weight": 0.381,
+        "length": 6.10,
+        "ap_mm": 218.91,
+        "thk_mm": 1.30,
+        "mf": 0,
+        "na": 0        
+
+    },
+
+    {
+        "category": "HIGH PERFORMANCE FOLDING DOOR (CONCEALED)",
+        "name": "内框",
+        "profile_no": "30234A",
+        "weight": 1.334,
+        "length": 6.10,
+        "ap_mm": 379.60,
+        "thk_mm": 1.40,
+        "mf": 0,
+        "na": 0        
+
+    },
+
+    {
+        "category": "HIGH PERFORMANCE FOLDING DOOR (CONCEALED)",
+        "name": "Lock bar",
+        "profile_no": 30166,
+        "weight": 0.126,
+        "length": 5.80,
+        "ap_mm": 45.900,
+        "thk_mm": 2.30,
+        "mf": 0,
+        "na": 0        
+
+    },
+
+    {
+        "category": "LOUVRES",
+        "name": "2 inch 2 3/32\"",
+        "profile_no": 30070,
+        "weight": 0.188,
+        "length": 6.10,
+        "ap_mm": 148.00,
+        "thk_mm": 0.95,
+        "mf": 0        
+    },
+
+    {
+        "category": "LOUVRES",
+        "name": "5 inch 4 31/32\"",
+        "profile_no": 30072,
+        "weight": 0.463,
+        "length": 6.10,
+        "ap_mm": 313.03,
+        "thk_mm": 1.10,
+        "mf": 0        
+    },
+
+    {
+        "category": "LOUVRES",
+        "name": "1x2\"",
+        "profile_no": 10050,
+        "weight": 0.270,
+        "length": 6.10,
+        "ap_mm": 201.20,
+        "thk_mm": 1.00,
+        "mf": 0        
+    },
+
+    {
+        "category": "LOUVRES",
+        "name": "0.5x1.5\"",
+        "profile_no": 10047,
+        "weight": 0.150,
+        "length": 6.10,
+        "ap_mm": 125.20,
+        "thk_mm": 0.90,
+        "mf": 0        
+    },
+
+    {
+        "category": "LOUVRES",
+        "name": "1x1.5\"",
+        "profile_no": 10004,
+        "weight": 0.301,
+        "length": 6.10,
+        "ap_mm": 127.00,
+        "thk_mm": 0.90,
+        "mf": 0        
+    },
+
+    {
+        "category": "SHOPFRONT",
+        "name": "单眼",
+        "profile_no": 30074,
+        "weight": 0.821,
+        "length": 6.10,
+        "ap_mm": 282.97,
+        "thk_mm": 1.10,
+        "mf": 0        
+    },
+
+    {
+        "category": "SHOPFRONT",
+        "name": "双眼",
+        "profile_no": 30075,
+        "weight": 0.935,
+        "length": 6.10,
+        "ap_mm": 324.64,
+        "thk_mm": 1.10,
+        "mf": 0        
+    },
+
+    {
+        "category": "SHOPFRONT",
+        "name": "钢琴料",
+        "profile_no": 30076,
+        "weight": 0.593,
+        "length": 6.10,
+        "ap_mm": 392.60,
+        "thk_mm": 1.10,
+        "mf": 0        
+    },
+
+    {
+        "category": "SHOPFRONT",
+        "name": "M Model",
+        "profile_no": 30077,
+        "weight": 0.677,
+        "length": 6.10,
+        "ap_mm": 448.59,
+        "thk_mm": 1.10,
+        "mf": 0        
+    },
+
+    {
+        "category": "SHOPFRONT",
+        "name": "盖线",
+        "profile_no": 30078,
+        "weight": 0.214,
+        "length": 6.10,
+        "ap_mm": 143.40,
+        "thk_mm": 1.10,
+        "mf": 0        
+    },
+
+    {
+        "category": "SHOPFRONT",
+        "name": "收口线",
+        "profile_no": 30079,
+        "weight": 0.309,
+        "length": 6.10,
+        "ap_mm": 208.83,
+        "thk_mm": 1.10,
+        "mf": 0        
+    },
+
+    {
+        "category": "SHOPFRONT",
+        "name": "90度转角",
+        "profile_no": 30081,
+        "weight": 1.662,
+        "length": 6.10,
+        "ap_mm": 392.07,
+        "thk_mm": 1.60,
+        "mf": 0        
+    },
+
+    {
+        "category": "DOOR CABINET",
+        "name": "经典门",
+        "profile_no": 50001,
+        "weight": 0.356,
+        "length": 6.10,
+        "ap_mm": 130.87,
+        "thk_mm": 1.05       
+    },
+
+    {
+        "category": "DOOR CABINET",
+        "name": "经典门带手把",
+        "profile_no": 50002,
+        "weight": 0.487,
+        "length": 6.10,
+        "ap_mm": 156.44,
+        "thk_mm": 0.95      
+    },
+
+    {
+        "category": "DOOR CABINET",
+        "name": "-",
+        "profile_no": 50050,
+        "weight": 0.315,
+        "length": 6.10,
+        "ap_mm": 156.44,
+        "thk_mm": 0.95       
+    },
+
+    {
+        "category": "DOOR CABINET",
+        "name": "-",
+        "profile_no": 50051,
+        "weight": 0.297,
+        "length": 6.10,
+        "ap_mm": 142.44,
+        "thk_mm": 0.95       
+    },
+
+    {
+        "category": "DOOR CABINET",
+        "name": "4D门",
+        "profile_no": 50007,
+        "weight": 0.354,
+        "length": 6.10,
+        "ap_mm": 121.93,
+        "thk_mm": 1.05,
+        "mf": 0        
+    },
+
+    {
+        "category": "DOOR CABINET",
+        "name": "4D带把手",
+        "profile_no": 50009,
+        "weight": 0.373,
+        "length": 6.10,
+        "ap_mm": 128.15,
+        "thk_mm": 1.05,
+        "mf": 0        
+    },
+
+    {
+        "category": "DOOR CABINET",
+        "name": "4D带小勾",
+        "profile_no": 50010,
+        "weight": 0.363,
+        "length": 6.10,
+        "ap_mm": 130.25,
+        "thk_mm": 1.05,
+        "mf": 0        
+    },
+
+    {
+        "category": "DOOR CABINET",
+        "name": "欧式门内框",
+        "profile_no": 50037,
+        "weight": 0.397,
+        "length": 6.10,
+        "ap_mm": 168.00,
+        "thk_mm": 1.00,
+        "mf": 0        
+    },
+
+    {
+        "category": "DOOR CABINET",
+        "name": "欧式门外框",
+        "profile_no": 50054,
+        "weight": 0.562,
+        "length": 6.10,
+        "ap_mm": 185.63,
+        "thk_mm": 0.90,
+        "mf": 0        
+    },
+
+    {
+        "category": "CABINET",
+        "name": "4支ACP橱身A",
+        "profile_no": 50031,
+        "weight": 0.749,
+        "length": 6.10,
+        "ap_mm": 261.99,
+        "thk_mm": 0.95,
+        "mf": 0        
+    },
+
+    {
+        "category": "CABINET",
+        "name": "4支ACP橱身B",
+        "profile_no": 50032,
+        "weight": 0.454,
+        "length": 6.10,
+        "ap_mm": 163.51,
+        "thk_mm": 0.95,
+        "mf": 0        
+    },
+
+    {
+        "category": "CABINET",
+        "name": "4支ACP橱身C",
+        "profile_no": 50033,
+        "weight": 0.288,
+        "length": 6.10,
+        "ap_mm": 140.58,
+        "thk_mm": 0.95,
+        "mf": 0        
+    },
+
+    {
+        "category": "CABINET",
+        "name": "4支ACP橱身D",
+        "profile_no": 50034,
+        "weight": 0.288,
+        "length": 6.10,
+        "ap_mm": 121.73,
+        "thk_mm": 0.95,
+        "mf": 0        
+    },
+
+    {
+        "category": "CABINET",
+        "name": "1支跑完ACP橱身",
+        "profile_no": 50028,
+        "weight": 0.324,
+        "length": 6.10,
+        "ap_mm": 128.67,
+        "thk_mm": 1.00,
+        "mf": 0        
+    },
+
+    {
+        "category": "CABINET",
+        "name": "抽屉料",
+        "profile_no": 50029,
+        "weight": 0.551,
+        "length": 6.10,
+        "ap_mm": 332.83,
+        "thk_mm": 1.20,
+        "mf": 0        
+    },
+
+    {
+        "category": "CABINET",
+        "name": "抽屉料留背板位",
+        "profile_no": 50030,
+        "weight": 0.619,
+        "length": 6.10,
+        "ap_mm": 333.57,
+        "thk_mm": 1.20,
+        "mf": 0        
+    },
+
+    {
+        "category": "CABINET",
+        "name": "C Handle",
+        "profile_no": 50020,
+        "weight": 0.698,
+        "length": 6.10,
+        "ap_mm": 276.36,
+        "thk_mm": 1.00,
+        "mf": 0        
+    },
+
+    {
+        "category": "FULL ALUMINIUM CABINET",
+        "name": "1支FULL ALU橱身",
+        "profile_no": "50047A",
+        "weight": 0.449,
+        "length": 6.10,
+        "ap_mm": 202.61,
+        "thk_mm": 1.10,
+        "mf": 0        
+    },
+
+    {
+        "category": "FULL ALUMINIUM CABINET",
+        "name": "喷漆双面",
+        "profile_no": 50046,
+        "weight": 0.294,
+        "length": 6.10,
+        "ap_mm": 90.60,
+        "thk_mm": 1.00,
+        "mf": 0        
+    },
+
+    {
+        "category": "FULL ALUMINIUM CABINET",
+        "name": "双面板",
+        "profile_no": 50045,
+        "weight": 0.449,
+        "length": 6.10,
+        "ap_mm": 189.19,
+        "thk_mm": 1.00,
+        "mf": 0        
+    },
+
+    {
+        "category": "FULL ALUMINIUM CABINET",
+        "name": "-",
+        "profile_no": 50055,
+        "weight": 0.325,
+        "length": 6.10,
+        "ap_mm": 141.97,
+        "thk_mm": 1.10,
+        "mf": 0        
+    },
+
+    {
+        "category": "FULL ALUMINIUM CABINET",
+        "name": "-",
+        "profile_no": 50056,
+        "weight": 0.429,
+        "length": 6.10,
+        "ap_mm": 187.56,
+        "thk_mm": 1.10,
+        "mf": 0        
+    },
+
+    {
+        "category": "FULL ALUMINIUM CABINET",
+        "name": "-",
+        "profile_no": 50057,
+        "weight": 0.450,
+        "length": 6.10,
+        "ap_mm": 172.10,
+        "thk_mm": 1.10,
+        "mf": 0        
+    },
+
+    {
+        "category": "FULL ALUMINIUM CABINET",
+        "name": "-",
+        "profile_no": 50058,
+        "weight": 0.711,
+        "length": 6.10,
+        "ap_mm": 245.20,
+        "thk_mm": 1.10,
+        "mf": 0        
+    },
+
+    {
+        "category": "FULL ALUMINIUM CABINET",
+        "name": "-",
+        "profile_no": 50059,
+        "weight": 0.834,
+        "length": 6.10,
+        "ap_mm": 277.37,
+        "thk_mm": 1.10,
+        "mf": 0        
+    },
+
+    {
+        "category": "FULL ALUMINIUM CABINET",
+        "name": "-",
+        "profile_no": 50060,
+        "weight": 0.464,
+        "length": 6.10,
+        "ap_mm": 190.32,
+        "thk_mm": 1.10,
+        "mf": 0        
+    },
+
+    {
+        "category": "HOLLOW",
+        "name": "Subframe Window",
+        "profile_no": 10022,
+        "weight": 0.210,
+        "length": 6.10,
+        "ap_mm": 105.36,
+        "thk_mm": 0.90,
+        "na": 0        
+    },
+
+    {
+        "category": "HOLLOW",
+        "name": "0.5x1\" Subframe Door",
+        "profile_no": 10001,
+        "weight": 0.139,
+        "length": 6.10,
+        "ap_mm": 76.20,
+        "thk_mm": 0.70,
+        "na": 0        
+    },
+
+    {
+        "category": "HOLLOW",
+        "name": "0.5x1\"",
+        "profile_no": 10384,
+        "weight": 0.160,
+        "length": 6.10,
+        "ap_mm": 76.20,
+        "thk_mm": 0.80,
+        "na": 0       
+    },
+
+    {
+        "category": "HOLLOW",
+        "name": "0.75(6HUN)x1\"",
+        "profile_no": 10002,
+        "weight": 0.240,
+        "length": 6.10,
+        "ap_mm": 101.60,
+        "thk_mm": 0.90       
+    },
+
+    {
+        "category": "HOLLOW",
+        "name": "-",
+        "profile_no": 10004,
+        "weight": 0.301,
+        "length": 6.10,
+        "ap_mm": 127.00,
+        "thk_mm": 0.90       
+    },
+
+    {
+        "category": "HOLLOW",
+        "name": "1x2\"",
+        "profile_no": 10386,
+        "weight": 0.368,
+        "length": 6.10,
+        "ap_mm": 152.40,
+        "thk_mm": 0.90       
+    },
+
+    {   
+        "category": "HOLLOW",
+        "name": "1x2\"",
+        "profile_no": 10007,
+        "weight": 0.368,
+        "length": 6.10,
+        "ap_mm": 152.40,
+        "thk_mm": 0.90        
+    },
+
+    {
+        "category": "HOLLOW",
+        "name": "1x2.5\"",
+        "profile_no": 10009,
+        "weight": 0.471,
+        "length": 6.10,
+        "ap_mm": 177.80,
+        "thk_mm": 1.00       
+    },
+
+    {
+        "category": "HOLLOW",
+        "name": "1x3\"",
+        "profile_no": 10010,
+        "weight": 0.487,
+        "length": 6.10,
+        "ap_mm": 203.20,
+        "thk_mm": 0.90       
+    },
+
+    {
+        "category": "HOLLOW",
+        "name": "1x4\"",
+        "profile_no": 10011,
+        "weight": 0.810,
+        "length": 6.10,
+        "ap_mm": 254.00,
+        "thk_mm": 1.20      
+    },
+
+    {
+        "category": "HOLLOW",
+        "name": "1x1\"",
+        "profile_no": 10018,
+        "weight": 0.213,
+        "length": 6.10,
+        "ap_mm": 101.60,
+        "thk_mm": 0.80       
+    },
+
+    {
+        "category": "HOLLOW",
+        "name": "2x2\"",
+        "profile_no": 10021,
+        "weight": 0.540,
+        "length": 6.10,
+        "ap_mm": 203.20,
+        "thk_mm": 1.00       
+    },
+
+    {
+        "category": "HOLLOW",
+        "name": "0.75(6HUN)x2\"",
+        "profile_no": 10152,
+        "weight": 0.368,
+        "length": 6.10,
+        "ap_mm": 135.70,
+        "thk_mm": 1.00      
+    },
+
+    {
+        "category": "HOLLOW",
+        "name": "1.75(1\"6HUN)x3\"",
+        "profile_no": 10012,
+        "weight": 0.748,
+        "length": 6.10,
+        "ap_mm": 241.30,
+        "thk_mm": 1.15       
+    },
+
+    {
+        "category": "HOLLOW",
+        "name": "0.5x2\"",
+        "profile_no": 10144,
+        "weight": 0.301,
+        "length": 6.10,
+        "ap_mm": 127.00,
+        "thk_mm": 0.90       
+    },
+
+    {
+        "category": "HOLLOW",
+        "name": "-",
+        "profile_no": 10015,
+        "weight": 1.038,
+        "length": 6.10,
+        "ap_mm": 300.00,
+        "thk_mm": 1.30      
+    },
+
+    {
+        "category": "HOLLOW",
+        "name": "-",
+        "profile_no": 30206,
+        "weight": 0.592,
+        "length": 6.10,
+        "ap_mm": 230.00,
+        "thk_mm": 0.85      
+    },
+
+    {
+        "category": "HOLLOW",
+        "name": "罐头料",
+        "profile_no": 30257,
+        "weight": 0.826,
+        "length": 6.10,
+        "ap_mm": 276.86,
+        "thk_mm": 1.20,
+        "na": 0,
+        "pc": 0       
+    },
+
+    {
+        "category": "ANGLE",
+        "name": "3/8\" x 3/8\"",
+        "profile_no": 10023,
+        "weight": 0.040,
+        "length": 6.10,
+        "ap_mm": 38.12,
+        "thk_mm": 0.80,
+        "mf": 0        
+    },
+
+    {
+        "category": "ANGLE",
+        "name": "0.5x0.5\"",
+        "profile_no": 10385,
+        "weight": 0.059,
+        "length": 6.10,
+        "ap_mm": 50.80,
+        "thk_mm": 0.90,
+        "mf": 0        
+    },
+
+    {
+        "category": "ANGLE",
+        "name": "0.5x0.5\"",
+        "profile_no": 10024,
+        "weight": 0.059,
+        "length": 6.10,
+        "ap_mm": 50.80,
+        "thk_mm": 0.90,
+        "mf": 0        
+    },
+
+    {
+        "category": "ANGLE",
+        "name": "1x1\"",
+        "profile_no": 10026,
+        "weight": 0.108,
+        "length": 6.10,
+        "ap_mm": 101.60,
+        "thk_mm": 0.80,
+        "mf": 0        
+    },
+
+    {
+        "category": "ANGLE",
+        "name": "1.5x1.5\"",
+        "profile_no": 10028,
+        "weight": 0.188,
+        "length": 6.10,
+        "ap_mm": 151.63,
+        "thk_mm": 0.90,
+        "mf": 0        
+    },
+
+    {
+        "category": "ANGLE",
+        "name": "1x2\"",
+        "profile_no": 10029,
+        "weight": 0.204,
+        "length": 6.10,
+        "ap_mm": 152.40,
+        "thk_mm": 1.00,
+        "mf": 0        
+    },
+
+    {
+        "category": "ANGLE",
+        "name": "1x3\"",
+        "profile_no": 10030,
+        "weight": 0.300,
+        "length": 6.10,
+        "ap_mm": 203.20,
+        "thk_mm": 1.10,
+        "mf": 0        
+    },
+
+    {
+        "category": "ANGLE",
+        "name": "0.5x1\"",
+        "profile_no": 10031,
+        "weight": 0.081,
+        "length": 6.10,
+        "ap_mm": 76.20,
+        "thk_mm": 0.80,
+        "mf": 0        
+    },
+
+    {
+        "category": "ANGLE",
+        "name": "0.5x2\"",
+        "profile_no": 10032,
+        "weight": 0.153,
+        "length": 6.10,
+        "ap_mm": 127.00,
+        "thk_mm": 0.90,
+        "mf": 0        
+    },
+
+    {
+        "category": "ANGLE",
+        "name": "6HUN x 6HUN (0.75x0.75)(6/8x6/8)",
+        "profile_no": 10389,
+        "weight": 0.196,
+        "length": 6.10,
+        "ap_mm": 76.20,
+        "thk_mm": 2.00,
+        "mf": 0        
+    },
+
+    {
+        "category": "ANGLE",
+        "name": "6HUN x 6HUN (0.75x0.75)(6/8x6/8)",
+        "profile_no": 10033,
+        "weight": 0.196,
+        "length": 6.10,
+        "ap_mm": 76.20,
+        "thk_mm": 2.00,
+        "mf": 0        
+    },
+
+    {
+        "category": "ANGLE",
+        "name": "1x1\"",
+        "profile_no": 10034,
+        "weight": 0.264,
+        "length": 6.10,
+        "ap_mm": 101.60,
+        "thk_mm": 2.00,
+        "na": 0        
+    },
+
+    {
+        "category": "ANGLE",
+        "name": "0.75x1.5\"(6HUN x 1 1/2\")",
+        "profile_no": 10035,
+        "weight": 0.370,
+        "length": 6.10,
+        "ap_mm": 136.53,
+        "thk_mm": 2.50,
+        "na": 0        
+    },
+
+    {
+        "category": "ANGLE",
+        "name": "1.5x1.5\"",
+        "profile_no": 10036,
+        "weight": 0.499,
+        "length": 6.10,
+        "ap_mm": 152.40,
+        "thk_mm": 2.50,
+        "na": 0        
+    },
+
+    {
+        "category": "ANGLE",
+        "name": "2x2\"",
+        "profile_no": 10037,
+        "weight": 0.671,
+        "length": 6.10,
+        "ap_mm": 203.20,
+        "thk_mm": 2.50,
+        "mf": 0        
+    },
+
+    {
+        "category": "ANGLE",
+        "name": "1.5x1.5\"",
+        "profile_no": 10229,
+        "weight": 0.402,
+        "length": 6.10,
+        "ap_mm": 202.43,
+        "thk_mm": 1.00,
+        "mf": 0        
+    },
+
+    {
+        "category": "U CHANNEL",
+        "name": "3HUN x 3HUN (3/8\" x 3/8\")",
+        "profile_no": 10038,
+        "weight": 0.060,
+        "length": 6.10,
+        "ap_mm": 55.58,
+        "thk_mm": 0.80,
+        "mf": 0        
+    },
+
+    {
+        "category": "U CHANNEL",
+        "name": "0.5x0.5\"",
+        "profile_no": 10039,
+        "weight": 0.089,
+        "length": 6.10,
+        "ap_mm": 74.40,
+        "thk_mm": 0.90,
+        "mf": 0        
+    },
+
+    {
+        "category": "U CHANNEL",
+        "name": "5HUN x 5HUN (5/8\" x 5/8\")",
+        "profile_no": 10040,
+        "weight": 0.112,
+        "length": 6.10,
+        "ap_mm": 93.48,
+        "thk_mm": 0.90,
+        "mf": 0        
+    },
+
+    {
+        "category": "U CHANNEL",
+        "name": "6HUN x 6HUN (6/8\" x 6/8\")",
+        "profile_no": 10041,
+        "weight": 0.135,
+        "length": 6.10,
+        "ap_mm": 150.00,
+        "thk_mm": 1.20,
+        "mf": 0        
+    },
+
+    {
+        "category": "U CHANNEL",
+        "name": "1x1\"",
+        "profile_no": 10042,
+        "weight": 0.240,
+        "length": 6.10,
+        "ap_mm": 150.00,
+        "thk_mm": 1.20,
+        "mf": 0        
+    },
+
+    {
+        "category": "U CHANNEL",
+        "name": "1x1\"",
+        "profile_no": 10298,
+        "weight": 0.298,
+        "length": 6.10,
+        "ap_mm": 149.40,
+        "thk_mm": 1.50,
+        "mf": 0        
+    },
+
+    {
+        "category": "U CHANNEL",
+        "name": "0.5x0.75 (1/2\" x 6HUN)",
+        "profile_no": 10044,
+        "weight": 0.092,
+        "length": 6.10,
+        "ap_mm": 87.30,
+        "thk_mm": 0.80,
+        "mf": 0        
+    },
+
+    {
+        "category": "U CHANNEL",
+        "name": "0.5x1\"",
+        "profile_no": 10045,
+        "weight": 0.106,
+        "length": 6.10,
+        "ap_mm": 100.00,
+        "thk_mm": 0.80,
+        "mf": 0        
+    },
+
+    {
+        "category": "U CHANNEL",
+        "name": "1x2\"",
+        "profile_no": 10050,
+        "weight": 0.270,
+        "length": 6.10,
+        "ap_mm": 201.20,
+        "thk_mm": 1.00,
+        "mf": 0        
+    },
+
+    {
+        "category": "U CHANNEL",
+        "name": "1x3\"",
+        "profile_no": 10051,
+        "weight": 0.405,
+        "length": 6.10,
+        "ap_mm": 251.60,
+        "thk_mm": 1.20,
+        "mf": 0        
+    },
+
+    {
+        "category": "U CHANNEL",
+        "name": "0.5x1.25(1/2x1\"2HUN)",
+        "profile_no": 10046,
+        "weight": 0.135,
+        "length": 6.10,
+        "ap_mm": 112.50,
+        "thk_mm": 0.90,
+        "mf": 0        
+    },
+
+    {
+        "category": "U CHANNEL",
+        "name": "0.5x1.5\" (1/2\" x 1/2\")",
+        "profile_no": 10047,
+        "weight": 0.150,
+        "length": 6.10,
+        "ap_mm": 125.20,
+        "thk_mm": 0.90,
+        "mf": 0        
+    },
+
+    {
+        "category": "PARTITION",
+        "name": "DOOR JAM",
+        "profile_no": 30258,
+        "weight": 0.395,
+        "length": 5.330,
+        "ap_mm": 345.25,
+        "thk_mm": 0.80,
+        "mf": 0,  
+        "pc": 0       
+    },
+
+    {
+        "category": "PARTITION",
+        "name": "GLASS MOULD",
+        "profile_no": 30263,
+        "weight": 0.300,
+        "length": 6.10,
+        "ap_mm": 277.58,
+        "thk_mm": 0.80,
+        "mf": 0,  
+        "pc": 0      
+    },
+
+    {
+        "category": "FLAT BAR",
+        "name": "1\"",
+        "profile_no": 10388,
+        "weight": 0.073,
+        "length": 6.100,
+        "ap_mm": 52.80,
+        "thk_mm": 1.00,
+        "mf": 0        
+    },
+
+    {
+        "category": "FLAT BAR",
+        "name": "1\"",
+        "profile_no": 10052,
+        "weight": 0.073,
+        "length": 6.100,
+        "ap_mm": 52.80,
+        "thk_mm": 1.00,
+        "mf": 0        
+    },
+
+    {
+        "category": "FLAT BAR",
+        "name": "1.5\"(1 1/2\")",
+        "profile_no": 10053,
+        "weight": 0.163,
+        "length": 6.100,
+        "ap_mm": 79.34,
+        "thk_mm": 1.57,
+        "mf": 0        
+    },
+
+    {
+        "category": "FLAT BAR",
+        "name": "2\"",
+        "profile_no": 10054,
+        "weight": 0.216,
+        "length": 6.100,
+        "ap_mm": 104.74,
+        "thk_mm": 1.57,
+        "mf": 0        
+    },
+
+    {
+        "category": "SLIM FRAME SWING DOOR",
+        "name": "内企",
+        "profile_no": 30169,
+        "weight": 0.632,
+        "length": 6.10,
+        "ap_mm": 144.78,
+        "thk_mm": 1.70,
+        "mf": 0,
+        "na": 0        
+    },
+
+    {
+        "category": "SLIM FRAME SWING DOOR",
+        "name": "外框",
+        "profile_no": 30170,
+        "weight": 0.522,
+        "length": 6.10,
+        "ap_mm": 188.71,
+        "thk_mm": 1.20,
+        "mf": 0, 
+        "na": 0      
+    },
+
+    {
+        "category": "SLIM FRAME SUSPENDED SLIDING DOOR",
+        "name": "内企",
+        "profile_no": 30169,
+        "weight": 0.632,
+        "length": 6.10,
+        "ap_mm": 144.78,
+        "thk_mm": 1.70,
+        "mf": 0,
+        "na": 0
+                
+    },
+
+    {
+        "category": "SLIM FRAME SUSPENDED SLIDING DOOR",
+        "name": "内顶/内底",
+        "profile_no": 30171,
+        "weight": 0.766,
+        "length": 6.10,
+        "ap_mm": 212.59,
+        "thk_mm": 1.70,
+        "mf": 0,
+        "na": 0
+                
+    },
+
+    {
+        "category": "SLIM FRAME SUSPENDED SLIDING DOOR",
+        "name": "内有勾",
+        "profile_no": 30175,
+        "weight": 0.720,
+        "length": 5.80,
+        "ap_mm": 182.81,
+        "thk_mm": 1.70,
+        "mf": 0,
+        "na": 0        
+    },
+
+    {
+        "category": "SLIM FRAME SUSPENDED SLIDING DOOR",
+        "name": "外顶",
+        "profile_no": 30172,
+        "weight": 0.954,
+        "length": 6.10,
+        "ap_mm": 242.55,
+        "thk_mm": 2.30,
+        "mf": 0,
+        "na": 0        
+    },
+
+    {
+        "category": "SLIM FRAME SUSPENDED SLIDING DOOR",
+        "name": "吊路衔接料",
+        "profile_no": 30177,
+        "weight": 0.244,
+        "length": 6.10,
+        "ap_mm": 149.69,
+        "thk_mm": 1.15,
+        "mf": 0,
+        "na": 0       
+    },
+
+    {
+        "category": "SLIM FRAME SUSPENDED SLIDING DOOR",
+        "name": "外企",
+        "profile_no": 30178,
+        "weight": 0.612,
+        "length": 6.10,
+        "ap_mm": 224.27,
+        "thk_mm": 1.15,
+        "mf": 0,
+        "na": 0       
+    },
+
+    {
+        "category": "SLIM FRAME SUSPENDED SLIDING DOOR",
+        "name": "外顶盖",
+        "profile_no": 30173,
+        "weight": 0.353,
+        "length": 6.10,
+        "ap_mm": 231.79,
+        "thk_mm": 1.15,
+        "mf": 0,
+        "na": 0       
+    },
+
+    {
+        "category": "SLIM FRAME SUSPENDED SLIDING DOOR",
+        "name": "打格料",
+        "profile_no": 30174,
+        "weight": 0.492,
+        "length": 6.10,
+        "ap_mm": 152.02,
+        "thk_mm": 1.20,
+        "mf": 0,
+        "na": 0        
+    },
+
+    {
+        "category": "ROLLER SHUTTER",
+        "name": "-",
+        "profile_no": 30106,
+        "weight": 1.266,
+        "length": 6.10,
+        "ap_mm": 383.74,
+        "thk_mm": 1.90,
+        "mf": 0,   
+        "pc": 0     
+    },
+
+    {
+        "category": "ROLLER SHUTTER",
+        "name": "-",
+        "profile_no": 30107,
+        "weight": 0.630,
+        "length": 6.10,
+        "ap_mm": 237.90,
+        "thk_mm": 1.90,
+        "mf": 0,
+        "pc": 0        
+    },
+
+    {
+        "category": "ROLLER SHUTTER",
+        "name": "-",
+        "profile_no": 30108,
+        "weight": 0.862,
+        "length": 4.34,
+        "ap_mm": 294.95,
+        "thk_mm": 1.80,
+        "mf": 0,
+        "pc": 0        
+    },
+
+    {
+        "category": "ROLLER SHUTTER",
+        "name": "-",
+        "profile_no": 30250,
+        "weight": 0.309,
+        "length": 4.34,
+        "ap_mm": 256.15,
+        "thk_mm": 0.90,
+        "mf": 0,
+        "pc": 0        
+    },
+
+    {
+        "category": "CURTAIN WALL",
+        "name": "外框",
+        "profile_no": 30088,
+        "weight": 1.250,
+        "length": 6.10,
+        "ap_mm": 317.90,
+        "thk_mm": 1.60,
+        "mf": 0        
+    },
+
+    {
+        "category": "CURTAIN WALL",
+        "name": "收口线",
+        "profile_no": 30089,
+        "weight": 1.177,
+        "length": 6.10,
+        "ap_mm": 138.05,
+        "thk_mm": 0.90,
+        "mf": 0        
+    },
+
+    {
+        "category": "CURTAIN WALL",
+        "name": "盖线",
+        "profile_no": 30090,
+        "weight": 0.375,
+        "length": 6.10,
+        "ap_mm": 134.09,
+        "thk_mm": 2.50,
+        "mf": 0,
+        "na": 0        
+    },
+
+    {
+        "category": "OPEN BACK",
+        "name": "1X2\"",
+        "profile_no": 10055,
+        "weight": 0.313,
+        "length": 0,
+        "ap_mm": 233.30,
+        "thk_mm": 1.0,
+        "mf": 0       
+    },
+
+    {
+        "category": "OPEN BACK",
+        "name": "1X2.5\"",
+        "profile_no": 10056,
+        "weight": 0.350,
+        "length": 0,
+        "ap_mm": 258.60,
+        "thk_mm": 1.0,
+        "mf": 0       
+    },
+
+    {
+        "category": "OPEN BACK",
+        "name": "1X4\"",
+        "profile_no": 10058,
+        "weight": 0.519,
+        "length": 0,
+        "ap_mm": 350.20,
+        "thk_mm": 1.10,
+        "mf": 0       
+    },
+
+    {
+        "category": "OPEN BACK",
+        "name": "(1\"6HUN x 3\")1\"6/8 x 3\"",
+        "profile_no": 10059,
+        "weight": 0.557,
+        "length": 0,
+        "ap_mm": 375.60,
+        "thk_mm": 1.10,
+        "mf": 0       
+    },
+
+    {
+        "category": "OPEN BACK",
+        "name": "1x3\"",
+        "profile_no": 10332,
+        "weight": 0.388,
+        "length": 0,
+        "ap_mm": 284.00,
+        "thk_mm": 1.00,
+        "mf": 0     
+    }
+
+    
+
+]   
+
+    

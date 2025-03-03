@@ -1,0 +1,9 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.yourcompany.yourapp
+productName: MyElectronApp
+win:
+  target: nsis
+files: []
+electronVersion: 30.5.1

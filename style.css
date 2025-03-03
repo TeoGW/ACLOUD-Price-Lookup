@@ -1,161 +1,110 @@
-/* 适配移动端基础布局 */
+/* 全局样式 */
 body {
-    overflow-x: hidden;
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    width: 100%;
-    font-size: 16px;
-    background-color: #121212; 
-    color: #E0E0E0; 
-    font-family: Arial, sans-serif;
 }
 
-/* 让 App 界面更有间距感 */
-.container {
-    padding: 15px;
-}
-
-/* 头部固定，适配手机 */
+/* 固定头部 */
 .fixed-header {
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
-    background-color: black;
-    padding: 12px 15px;
+    background-color: #222;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
     z-index: 1000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
 }
 
-/* 让页面内容不会被头部遮挡 */
-body {
-    padding-top: 60px;
-}
-
-/* LOGO 适配移动端 */
+/* LOGO 和标题 */
 .logo-title {
     display: flex;
-    align-items: center; 
+    align-items: center;
     gap: 10px;
 }
-
 .logo {
-    height: 40px; 
-    width: auto;
+    width: 40px;
+}
+h1 {
+    font-size: 20px;
 }
 
-/* 适配小屏幕按钮 */
-button {
-    padding: 10px;
-    background-color: #2374AB;
+/* 搜索框 */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+.input-container {
+    position: relative;
+}
+.lock-icon {
+    position: absolute;
+    right: 10px;
+    top: 10px;
     color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 6px;
-    font-size: 16px;
+}
+
+/* 输入框 & 按钮 */
+input, button {
     width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
 }
-
+input {
+    background-color: #222;
+    color: white;
+}
+button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
 button:hover {
-    background-color: #1A5A8A;
+    background-color: #0056b3;
 }
 
-/* 表格适配手机，增加滚动 */
+/* 表格样式 */
+.section-content {
+    margin-top: 150px;
+    padding: 20px;
+}
 table {
     width: 100%;
     border-collapse: collapse;
-    background-color: #252525;
+    background-color: #333;
+    margin-top: 20px;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #444;
+}
+th {
+    background-color: #555;
+}
+
+/* 让表格可以横向滚动 */
+table {
     display: block;
     overflow-x: auto;
     white-space: nowrap;
 }
 
-th, td {
-    border: 1px solid #2374AB; 
-    padding: 12px;
-    text-align: center;
-    color: #E0E0E0;
-}
-
-th {
-    background-color: #2374AB; 
-    color: white;
-}
-
-/* 表格滚动 */
-.table-container {
-    width: 100%;
-    overflow-x: auto;
-}
-
-/* 输入框适配移动端 */
-input, select, textarea {
-    width: 100%;
-    padding: 12px;
+#newButton {
+    margin-top: 20px;
+    padding: 10px 20px;
     font-size: 16px;
-    border-radius: 6px;
-    border: 1px solid #2374AB;
-    background-color: #252525;
-    color: white;
-    margin-top: 8px;
-}
-
-textarea {
-    min-height: 60px;
-    resize: vertical;
-}
-
-/* 搜索按钮 */
-#searchButton1 {
-    padding: 12px;
-    background-color: #007bff; 
+    background-color: #28a745;
     color: white;
     border: none;
-    border-radius: 6px;
-    font-size: 16px;
-    width: 100%;
-    text-align: center;
+    border-radius: 5px;
 }
-
-#searchButton1:hover {
-    background-color: #0056b3;
-}
-
-/* 让输入框组适配小屏幕 */
-.input-group {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-
-/* 响应式：适配不同设备 */
-@media screen and (min-width: 600px) {
-    /* 600px 以上：表单居中，保持 PC 端显示 */
-    .input-group {
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    button, input, select, textarea {
-        max-width: 400px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    /* 600px 以下：适配更小的屏幕 */
-    body {
-        font-size: 14px;
-    }
-
-    th, td {
-        padding: 8px;
-    }
-
-    button {
-        font-size: 14px;
-        padding: 8px;
-    }
+#newButton:hover {
+    background-color: #218838;
 }

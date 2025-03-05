@@ -2,7 +2,7 @@
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <title>ACLOUD Price Lookup</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -12,14 +12,18 @@
     <section class="fixed-header">
         <div class="logo-title">  
             <img src="pic/logo.png" alt="ACLOUD Logo" class="logo">
-            <h1>ACLOUD PRICE</h1>
+            <h1 class="app-name">ACLOUD PRICE</h1>
         </div>
+    </section>    
 
+    <div class="input-all">
         <div class="input-group">
             <input type="text" placeholder="MF" id="mfperkg">
             <input type="text" placeholder="NA" id="naperkg">
             <input type="text" placeholder="PC" id="pcperkg">
+        </div>
             <br>
+        <div class="input-client">
             <div class="input-container">
                 <input type="text" id="clientInput" placeholder="Enter Client">
                 <span id="lockIcon" class="lock-icon">
@@ -35,6 +39,7 @@
             <datalist id="descriptionList"></datalist>
             <button id="searchButton">Search</button>
         </div>
+    </div>
     </section>
 
     
@@ -42,29 +47,36 @@
     <section class="section-content">
         <h3 id="client_name">Client:</h3>
 
-        <table id="resultTable">
-            <tr>               
-                <th>Product Name</th>
-                <th>Product No.</th>
-                <th>Description</th> 
-                <th>THK(MM)</th>
-                <th>Length(M)</th>               
-                <th>Material</th>
-                <th>Price(RM)</th>
-                <th>Remarks</th>
-                <th>Order by</th>
-                <th>Status</th>
-                <th id="deleterow">Delete</th>
-            </tr>
-            <tbody id="tableBody"></tbody>
-            <tr>
-                <td colspan="6" style="text-align:right; font-weight:bold;">Total (RM):</td>
-                <td id="total-price"style="text-align:right; font-weight:bold;">0.00</td>
-                <td></td>
-                <td colspan="3" id="date"></td>
-            </tr>
-        </table>
+        <div class="table-container">
+            <table id="resultTable">
+                <thead>
+                    <tr>               
+                        <th>Product Name</th>
+                        <th>Product No.</th>
+                        <th>Description</th> 
+                        <th>THK(MM)</th>
+                        <th>Length(M)</th>               
+                        <th>Material</th>
+                        <th>Price(RM)</th>
+                        <th>Remarks</th>
+                        <th>Order by</th>
+                        <th>Status</th>
+                        <th id="deleterow">Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody"></tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="6" style="text-align: right;">Total (RM):</td>
+                        <td id="total-price" >0.00</td>
+                        <td></td>
+                        <td colspan="3" id="date"></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
         <button id="newButton">New</button>
+        
 
         
 

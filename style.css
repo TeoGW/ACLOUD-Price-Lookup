@@ -1,110 +1,80 @@
-/* 全局样式 */
 body {
-    background-color: #111;
-    color: white;
     font-family: Arial, sans-serif;
+    background-color: #181818;
+    color: #fff;
     margin: 0;
     padding: 0;
-}
-
-/* 固定头部 */
-.fixed-header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #222;
-    padding: 15px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-    z-index: 1000;
-}
-
-/* LOGO 和标题 */
-.logo-title {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-.logo {
-    width: 40px;
-}
-h1 {
-    font-size: 20px;
-}
-
-/* 搜索框 */
-.input-group {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    margin-top: 10px;
-}
-.input-container {
-    position: relative;
-}
-.lock-icon {
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    color: white;
+    align-items: center;
 }
 
-/* 输入框 & 按钮 */
-input, button {
+.container {
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+input, select, button {
     width: 100%;
-    padding: 12px;
+    padding: 10px;
+    margin: 5px 0;
     font-size: 16px;
     border-radius: 8px;
     border: none;
 }
-input {
-    background-color: #222;
-    color: white;
+
+input, select {
+    background-color: #282828;
+    color: #fff;
 }
+
 button {
     background-color: #007bff;
     color: white;
     cursor: pointer;
+    font-weight: bold;
 }
-button:hover {
+
+button:active {
     background-color: #0056b3;
 }
 
-/* 表格样式 */
-.section-content {
-    margin-top: 150px;
-    padding: 20px;
+#tableContainer {
+    width: 100%;
+    margin-top: 10px;
+    display: none; /* 初始隐藏表格 */
 }
-table {
+
+#dataTable {
     width: 100%;
     border-collapse: collapse;
-    background-color: #333;
-    margin-top: 20px;
-}
-th, td {
-    padding: 10px;
-    text-align: center;
-    border-bottom: 1px solid #444;
-}
-th {
-    background-color: #555;
 }
 
-/* 让表格可以横向滚动 */
-table {
-    display: block;
-    overflow-x: auto;
-    white-space: nowrap;
+#dataTable th, #dataTable td {
+    border: 1px solid #444;
+    padding: 8px;
+    text-align: left;
+    font-size: 14px;
 }
 
-#newButton {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 16px;
+#addNewButton {
+    margin-top: 10px;
+    display: none; /* 初始隐藏按钮 */
     background-color: #28a745;
-    color: white;
-    border: none;
-    border-radius: 5px;
 }
-#newButton:hover {
-    background-color: #218838;
+
+#addNewButton:active {
+    background-color: #1e7e34;
+}
+
+@media (max-width: 768px) {
+    input, select, button {
+        font-size: 14px;
+        padding: 8px;
+    }
+    
+    #dataTable th, #dataTable td {
+        font-size: 12px;
+    }
 }

@@ -514,8 +514,7 @@
         "length": 6.10,
         "ap_mm": 282.40,
         "thk_mm": 1.30,
-        "mf": 0,
-        "na": 0       
+        "mf": 0      
          
     },
 
@@ -2174,7 +2173,7 @@
         "name": "1X2\"",
         "profile_no": 10055,
         "weight": 0.313,
-        "length": 0,
+        "length": 6.10,
         "ap_mm": 233.30,
         "thk_mm": 1.0,
         "mf": 0       
@@ -2185,7 +2184,7 @@
         "name": "1X2.5\"",
         "profile_no": 10056,
         "weight": 0.350,
-        "length": 0,
+        "length": 6.10,
         "ap_mm": 258.60,
         "thk_mm": 1.0,
         "mf": 0       
@@ -2196,7 +2195,7 @@
         "name": "1X4\"",
         "profile_no": 10058,
         "weight": 0.519,
-        "length": 0,
+        "length": 6.10,
         "ap_mm": 350.20,
         "thk_mm": 1.10,
         "mf": 0       
@@ -2207,7 +2206,7 @@
         "name": "(1\"6HUN x 3\")1\"6/8 x 3\"",
         "profile_no": 10059,
         "weight": 0.557,
-        "length": 0,
+        "length": 6.10,
         "ap_mm": 375.60,
         "thk_mm": 1.10,
         "mf": 0       
@@ -2218,7 +2217,7 @@
         "name": "1x3\"",
         "profile_no": 10332,
         "weight": 0.388,
-        "length": 0,
+        "length": 6.10,
         "ap_mm": 284.00,
         "thk_mm": 1.00,
         "mf": 0     

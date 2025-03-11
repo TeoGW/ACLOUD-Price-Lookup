@@ -26,6 +26,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 }
 
+
+
 document.querySelectorAll(".column-toggle").forEach(checkbox => {
     checkbox.addEventListener("change", function () {
         let columnIndex = this.getAttribute("data-column");
@@ -39,6 +41,8 @@ document.querySelectorAll(".column-toggle").forEach(checkbox => {
         });
     });
 });
+
+
 
 
 
@@ -56,6 +60,7 @@ document.querySelectorAll(".column-toggle").forEach(checkbox => {
 document.getElementById("newButton").addEventListener("click", function () {
     updateDate(); 
 });
+
 
 document.getElementById("newButton").addEventListener("click", function () {
     document.getElementById("tableBody").innerHTML = "";
@@ -114,9 +119,10 @@ async function searchProduct() {
         });
 
         let product = filteredProducts.find(p => 
-            (p.category.toLowerCase() === categoryInput || p.profile_no.toString() === categoryInput) &&
-            (!descriptionInput || p.name.toLowerCase() === descriptionInput)
-        );
+    (p.category.toLowerCase().includes(categoryInput) || p.profile_no.toString().includes(categoryInput)) &&
+    (!descriptionInput || p.name.toLowerCase().includes(descriptionInput))
+);
+
 
         if (!product) {
             alert("未找到匹配的产品");
@@ -147,6 +153,7 @@ async function searchProduct() {
         alert("无法获取产品数据，请检查 JSON 文件是否正确！");
     } 
 }
+
     
     function addNewProduct(product, allProducts) {
         let tableBody = document.getElementById("tableBody");
@@ -175,22 +182,29 @@ async function searchProduct() {
         } else {
             lengthHTML = lengthArray[0];
         }
-    
+            
         let materialSelect = `
             <select class="materialSelect">
                 <option value="mf">MF</option>
                 <option value="na">NA</option>
                 <option value="pc">PC</option>
-            </select>`;
-    
+            </select>
+            <div class="baseMaterialContainer" style="display: none;">
+                <select id="baseMaterial" class="baseMaterialSelect">
+                    <option value="na">NA</option>
+                    <option value="mf">MF</option>
+                </select>
+            </div>`;
+             
         let statusSelect = `
             <select class="statusSelect">
                 <option value="normal">Normal</option>
                 <option value="urgent">Urgent</option>
             </select>`;
 
-            let colorDropdown = `
+            let colordropdown = `
             <select class="colorSelect">
+                <option value="none">None</option>
                 <option value="EWH 11S. SM.WHITE 滑面白">EWH 11S. SM.WHITE 滑面白</option>
                 <option value="HBG 16T .MT BEIGE 粗面米色">HBG 16T .MT BEIGE 粗面米色</option>
                 <option value="EBR813T. MT BROWN. 粗面深褐色">EBR813T. MT BROWN. 粗面深褐色</option>
@@ -201,8 +215,7 @@ async function searchProduct() {
                 <option value="HGR 77T.MT.GREY.深深灰带蓝">HGR 77T.MT.GREY.深深灰带蓝</option>
                 <option value="W H13T.MT WHITE. 粗面白色">W H13T.MT WHITE.粗面白色</option>
             </select>`;
-
-            
+      
             let quantityInput = `<input type="number" class="quantityInput" min="1" value="1" style="width: 60px;">`;
             let newRow = `
             <tr>
@@ -211,7 +224,7 @@ async function searchProduct() {
                 <td>${product.name}</td>
                 <td>${product.thk_mm}</td>
                 <td>${lengthHTML}</td>
-                <td>${colorDropdown}</td>
+                <td>${colordropdown}</td>
                 <td>${materialSelect}</td>
                 <td>${quantityInput}</td>  <!-- 添加数量输入框 -->
                 <td class="price"></td>
@@ -224,8 +237,20 @@ async function searchProduct() {
         let lengthDropdown = lastRow.querySelector(".lengthSelect");
         let profileNoDropdown = lastRow.querySelector(".profileNoSelect");
         let quantityInputField = lastRow.querySelector(".quantityInput"); 
+        let baseMaterialContainer = lastRow.querySelector(".baseMaterialContainer");
+        let baseMaterialDropdown = lastRow.querySelector(".baseMaterialSelect");
+        
+
+        materialDropdown.addEventListener("change", function () {
+            if (this.value === "pc") {
+                baseMaterialContainer.style.display = "block";
+            } else {
+                baseMaterialContainer.style.display = "none";
+            }
+        });
 
         quantityInputField.addEventListener("input", updatePrice);
+        
 
         function updateTime() {
             let now = new Date();
@@ -269,10 +294,6 @@ async function searchProduct() {
             
         }
 
-
-        
-    
-    
         function updatePrices(product, length, materialType, row) {
             let pricePerKg = {
                 mf: parseFloat(document.getElementById("mfperkg")?.value) || 0,
@@ -281,12 +302,9 @@ async function searchProduct() {
             };
         
             let quantity = parseInt(row.querySelector(".quantityInput").value) || 1; 
+            let baseMaterialSelectElement = row.querySelector(".baseMaterialSelect");
+            let baseMaterialSelect = baseMaterialSelectElement ? baseMaterialSelectElement.value : null;
         
-            if (product[materialType] === 0 || pricePerKg[materialType] === 0) {
-                row.querySelector(".price").innerText = "N/A";
-                updateTotals();
-                return;
-            }
         
             let price = (product.weight * length * pricePerKg[materialType] * quantity).toFixed(2); 
         
@@ -301,26 +319,33 @@ async function searchProduct() {
                 price = ((product.ap_mm / 1000 * 10.765 * length * pricePerKg["pc"]) + parseFloat(naPrice)) * quantity;
                 price = price.toFixed(2);
             }
+            
         
-            if (materialType === "pc") {
+            if (materialType === "pc" && baseMaterialSelect === "na") {
                 let naPrice = (product.weight * length * pricePerKg["na"]) || 0;
                 price = ((product.ap_mm * 0.010765 * pricePerKg["pc"] * length) + naPrice) * quantity;
                 price = price.toFixed(2);
             }
-        
+
+            if (materialType === "pc" && baseMaterialSelect === "mf") {
+                let mfPrice = (product.weight * length * pricePerKg["mf"]) || 0;
+                price = ((product.ap_mm * 0.010765 * pricePerKg["pc"] * length) + mfPrice) * quantity;
+                price = price.toFixed(2);
+            }
+
             if (["FLAT BAR", "ECONOMY SLIDING DOOR", "ECONOMY SLIDING WINDOW", "ECONOMY CASEMENT WINDOW", "U CHANNEL", "ANGLE", "HOLLOW"].includes(category) && materialType === "na") {
                 if (product.weight > 0.00 && product.weight < 0.100) {
                     price = (parseFloat(price) + 3 * quantity).toFixed(2);
                 } else if (product.weight >= 0.100 && product.weight <= 0.170) {
                     price = (parseFloat(price) + 2 * quantity).toFixed(2);
                 }
+                
             }
-            
-        
+
             row.querySelector(".price").innerText = price;
             updateTotals();
         }
-        
+       
         let searchButton = document.getElementById("searchButton");
             if (searchButton) {
                 searchButton.addEventListener("click", searchProduct);
@@ -348,11 +373,6 @@ async function searchProduct() {
                 doc.text(clientInput.toUpperCase(), 14, 56);
             }
             
-
-
-
-
-  
             document.getElementById("generate-pdf").addEventListener("click", function () {
                 const { jsPDF } = window.jspdf;
                 const doc = new jsPDF();
@@ -474,6 +494,16 @@ async function searchProduct() {
             
                 doc.save(`${clientInput}_Sales_Order.pdf`);
             });
+
+            
+
+            
+            
+
+            
+
+
+            
             
             
             

@@ -6,9 +6,13 @@
     <link rel="stylesheet" href="style.css">
     <title>ACLOUD Price Lookup</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.23/jspdf.plugin.autotable.min.js"></script>
+
+    
 </head>
 <body>
+    <!-- 固定标题栏 -->
     <section class="fixed-header">
         <div class="logo-title">  
             <img src="pic/logo.png" alt="ACLOUD Logo" class="logo">
@@ -16,13 +20,14 @@
         </div>
     </section>    
 
+    <!-- 输入区域 -->
     <div class="input-all">
         <div class="input-group">
             <input type="text" placeholder="MF" id="mfperkg">
             <input type="text" placeholder="NA" id="naperkg">
             <input type="text" placeholder="PC" id="pcperkg">
         </div>
-            <br>
+
         <div class="input-client">
             <div class="input-container">
                 <input type="text" id="clientInput" placeholder="Enter Client">
@@ -33,17 +38,39 @@
                 </span>
             </div>
             
-            <input type="text" id="categoryInput" placeholder="Enter Category">
-            <datalist id="categoryList"></datalist>
-            <input type="text" id="descriptionInput" placeholder="Enter Description">
-            <datalist id="descriptionList"></datalist>
-            <button id="searchButton">Search</button>
+            <input type="text" id="categoryInput" placeholder="Enter Category or Profile No." list="categoryList">
+  
+
+            <input type="text" id="descriptionInput" placeholder="Enter Description" list="descriptionList">
+      
+
+
+            <input type="text" placeholder="Order by..." class="order-input">
+            
+            <!-- 按钮组 -->
+            <div class="button-group">
+                <button id="status-select" class="normal">Normal</button>
+                <button id="searchButton">Search</button>
+            </div>
         </div>
     </div>
-    </section>
 
-    
 
+
+
+
+    <div id="columnFilter">
+        
+        <label><input type="checkbox" class="column-toggle" data-column="0" checked> Product Name</label>
+        <label><input type="checkbox" class="column-toggle" data-column="1" checked> Product No.</label>
+        <label><input type="checkbox" class="column-toggle" data-column="2" checked> Description</label>
+        <label><input type="checkbox" class="column-toggle" data-column="3" checked> THK(MM)</label>
+        <label><input type="checkbox" class="column-toggle" data-column="4" checked> Length(M)</label>
+        <label><input type="checkbox" class="column-toggle" data-column="5" checked> Color</label>
+        <label><input type="checkbox" class="column-toggle" data-column="6" checked> Material</label>
+    </div>
+
+    <!-- 结果表格 -->
     <section class="section-content">
         <h3 id="client_name">Client:</h3>
 
@@ -52,45 +79,44 @@
                 <thead>
                     <tr>               
                         <th>Product Name</th>
-                        <th>Product No.</th>
+                        <th>Profile No.</th>
                         <th>Description</th> 
                         <th>THK(MM)</th>
-                        <th>Length(M)</th>               
+                        <th>Length(M)</th>
+                        <th>Color</th>               
                         <th>Material</th>
+                        <th>Quantity</th>
                         <th>Price(RM)</th>
-                        <th>Remarks</th>
-                        <th>Order by</th>
-                        <th>Status</th>
                         <th id="deleterow">Delete</th>
                     </tr>
                 </thead>
                 <tbody id="tableBody"></tbody>
                 <tfoot>
                     <tr>
-                        <td colspan="6" style="text-align: right;">Total (RM):</td>
-                        <td id="total-price" >0.00</td>
                         <td></td>
-                        <td colspan="3" id="date"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><strong>Total (RM):</strong> <span id="total-price">0.00</span>
+                        </td>
+                        
+                        <td><span id="currentTime"></span></td>
                     </tr>
                 </tfoot>
             </table>
+            <input type="text" placeholder="Remarks" class="remarks">
         </div>
+
         <button id="newButton">New</button>
-        
+        <button id="generate-pdf">Export PDF</button>
 
-        
-
-       
-        
-        
 
     </section>
 
-
-
-    
-
     <script src="main.js"></script>
-
 </body>
 </html>

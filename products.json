@@ -6,8 +6,7 @@
         "weight": 0.288,
         "length": 6.10,
         "ap_mm": 226.42,
-        "thk_mm": 0.85,
-        "mf": 0   
+        "thk_mm": 0.85 
     },
 
     {
@@ -17,8 +16,7 @@
         "weight": 0.465,
         "length": 6.10,
         "ap_mm": 251.21,
-        "thk_mm": 0.82,
-        "mf": 0        
+        "thk_mm": 0.82     
     },
 
     {
@@ -28,8 +26,7 @@
         "weight": 0.441,
         "length": 6.10,
         "ap_mm": 246.48,
-        "thk_mm": 0.85,
-        "mf": 0        
+        "thk_mm": 0.85      
     },
 
     {
@@ -39,8 +36,7 @@
         "weight": 0.124,
         "length": 6.10,
         "ap_mm": 109.28,
-        "thk_mm": 0.80,
-        "mf": 0        
+        "thk_mm": 0.80      
     },
 
     {
@@ -50,8 +46,7 @@
         "weight": 0.210,
         "length": 6.10,
         "ap_mm": 162.55,
-        "thk_mm": 0.95,
-        "mf": 0
+        "thk_mm": 0.95
                
     },
 
@@ -62,8 +57,7 @@
         "weight": 0.386,
         "length": 6.10,
         "ap_mm": 306.32,
-        "thk_mm": 0.90,
-        "mf": 0        
+        "thk_mm": 0.90      
     },
 
     {
@@ -73,8 +67,7 @@
         "weight": 0.319,
         "length": 6.10,
         "ap_mm": 248.98,
-        "thk_mm": 0.90,
-        "mf": 0        
+        "thk_mm": 0.90       
     },
 
     {
@@ -1416,7 +1409,7 @@
 
     {
         "category": "HOLLOW",
-        "name": "0.5x1\" Subframe Door",
+        "name": "0.5x1 Subframe Door",
         "profile_no": 10001,
         "weight": 0.139,
         "length": 6.10,
@@ -1427,7 +1420,7 @@
 
     {
         "category": "HOLLOW",
-        "name": "0.5x1\"",
+        "name": "0.5x1",
         "profile_no": 10384,
         "weight": 0.160,
         "length": 6.10,
@@ -1438,7 +1431,7 @@
 
     {
         "category": "HOLLOW",
-        "name": "0.75(6HUN)x1\"",
+        "name": "0.75(6HUN)x1",
         "profile_no": 10002,
         "weight": 0.240,
         "length": 6.10,
@@ -1448,7 +1441,7 @@
 
     {
         "category": "HOLLOW",
-        "name": "-",
+        "name": "1x1.5",
         "profile_no": 10004,
         "weight": 0.301,
         "length": 6.10,
@@ -1458,7 +1451,7 @@
 
     {
         "category": "HOLLOW",
-        "name": "1x2\"",
+        "name": "1x2",
         "profile_no": 10386,
         "weight": 0.368,
         "length": 6.10,
@@ -1468,7 +1461,7 @@
 
     {   
         "category": "HOLLOW",
-        "name": "1x2\"",
+        "name": "1x2",
         "profile_no": 10007,
         "weight": 0.368,
         "length": 6.10,
@@ -1478,7 +1471,7 @@
 
     {
         "category": "HOLLOW",
-        "name": "1x2.5\"",
+        "name": "1x2.5",
         "profile_no": 10009,
         "weight": 0.471,
         "length": 6.10,
@@ -1488,7 +1481,7 @@
 
     {
         "category": "HOLLOW",
-        "name": "1x3\"",
+        "name": "1x3",
         "profile_no": 10010,
         "weight": 0.487,
         "length": 6.10,
@@ -1498,7 +1491,7 @@
 
     {
         "category": "HOLLOW",
-        "name": "1x4\"",
+        "name": "1x4",
         "profile_no": 10011,
         "weight": 0.810,
         "length": 6.10,
@@ -1508,7 +1501,7 @@
 
     {
         "category": "HOLLOW",
-        "name": "1x1\"",
+        "name": "1x1",
         "profile_no": 10018,
         "weight": 0.213,
         "length": 6.10,
@@ -1518,7 +1511,7 @@
 
     {
         "category": "HOLLOW",
-        "name": "2x2\"",
+        "name": "2x2",
         "profile_no": 10021,
         "weight": 0.540,
         "length": 6.10,
@@ -1528,7 +1521,7 @@
 
     {
         "category": "HOLLOW",
-        "name": "0.75(6HUN)x2\"",
+        "name": "0.75(6HUN)x2",
         "profile_no": 10152,
         "weight": 0.368,
         "length": 6.10,
@@ -1538,7 +1531,7 @@
 
     {
         "category": "HOLLOW",
-        "name": "1.75(1\"6HUN)x3\"",
+        "name": "1.75(1\"6HUN)x3",
         "profile_no": 10012,
         "weight": 0.748,
         "length": 6.10,
@@ -1548,7 +1541,7 @@
 
     {
         "category": "HOLLOW",
-        "name": "0.5x2\"",
+        "name": "0.5x2",
         "profile_no": 10144,
         "weight": 0.301,
         "length": 6.10,
@@ -1558,7 +1551,7 @@
 
     {
         "category": "HOLLOW",
-        "name": "-",
+        "name": "2x4",
         "profile_no": 10015,
         "weight": 1.038,
         "length": 6.10,
@@ -1568,7 +1561,7 @@
 
     {
         "category": "HOLLOW",
-        "name": "-",
+        "name": "100x15",
         "profile_no": 30206,
         "weight": 0.592,
         "length": 6.10,

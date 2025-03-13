@@ -12,7 +12,7 @@ self.addEventListener('install', (event) => {
         .catch(err => console.log("SW Registration Failed", err));
     }
 
-
+let response = await fetch("./products.json");
 document.addEventListener("DOMContentLoaded", function () {
     async function fetchProducts() {
     try {

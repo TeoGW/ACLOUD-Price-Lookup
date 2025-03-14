@@ -1,126 +1,99 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
     <title>ACLOUD Price Lookup</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:,">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.23/jspdf.plugin.autotable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.28/jspdf.plugin.autotable.min.js"></script>
 
-    
+
 </head>
 <body>
-    <!-- 固定标题栏 -->
-    <section class="fixed-header">
-        <div class="logo-title">  
-            <img src="pic/logo.png" alt="ACLOUD Logo" class="logo">
-            <h1 class="app-name">ACLOUD PRICE</h1>
-        </div>
-    </section>    
-
-    <!-- 输入区域 -->
-    <div class="input-all">
-        <div class="input-group">
-            <input type="text" placeholder="MF" id="mfperkg">
-            <input type="text" placeholder="NA" id="naperkg">
-            <input type="text" placeholder="PC" id="pcperkg">
-        </div>
-
-        <div class="input-client">
-            <div class="input-container">
-                <input type="text" id="clientInput" placeholder="Enter Client">
-                <span id="lockIcon" class="lock-icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="M6.616 21q-.667 0-1.141-.475T5 19.386v-8.77q0-.666.475-1.14T6.615 9H8V7q0-1.671 1.165-2.835Q10.329 3 12 3t2.836 1.165T16 7v2h1.385q.666 0 1.14.475t.475 1.14v8.77q0 .666-.475 1.14t-1.14.475zM12 16.5q.633 0 1.066-.434q.434-.433.434-1.066t-.434-1.066T12 13.5t-1.066.434Q10.5 14.367 10.5 15t.434 1.066q.433.434 1.066.434M9 9h6V7q0-1.25-.875-2.125T12 4t-2.125.875T9 7z"/>
-                    </svg>
-                </span>
-            </div>
-            
-            <input type="text" id="categoryInput" placeholder="Enter Category or Profile No." list="categoryList">
-  
-
-            <input type="text" id="descriptionInput" placeholder="Enter Description" list="descriptionList">
-
-            
-      
-
-
-            <input type="text" placeholder="Order by..." class="order-input">
-            
-            <!-- 按钮组 -->
-            <div class="button-group">
-                <button id="status-select" class="normal">Normal</button>
-                <button id="searchButton">Search</button>
-            </div>
-        </div>
-    </div>
-
-
-
-
-
-    <div id="columnFilter">
-        
-        <label><input type="checkbox" class="column-toggle" data-column="0" checked> Product Name</label>
-        <label><input type="checkbox" class="column-toggle" data-column="1" checked> Product No.</label>
-        <label><input type="checkbox" class="column-toggle" data-column="2" checked> Description</label>
-        <label><input type="checkbox" class="column-toggle" data-column="3" checked> THK(MM)</label>
-        <label><input type="checkbox" class="column-toggle" data-column="4" checked> Length(M)</label>
-        <label><input type="checkbox" class="column-toggle" data-column="5" checked> Color</label>
-        <label><input type="checkbox" class="column-toggle" data-column="6" checked> Material</label>
-    </div>
-
-    <!-- 结果表格 -->
-    <section class="section-content">
-        <h3 id="client_name">Client:</h3>
-
-        <div class="table-container">
-            <table id="resultTable">
-                <thead>
-                    <tr>               
-                        <th>Product Name</th>
-                        <th>Profile No.</th>
-                        <th>Description</th> 
-                        <th>THK(MM)</th>
-                        <th>Length(M)</th>
-                        <th>Color</th>               
-                        <th>Material</th>
-                        <th>Quantity</th>
-                        <th>Price(RM)</th>
-                        <th id="deleterow">Delete</th>
-                    </tr>
-                </thead>
-                <tbody id="tableBody"></tbody>
-                <tfoot>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td><strong>Total (RM):</strong> <span id="total-price">0.00</span>
-                        </td>
-                        
-                        <td><span id="currentTime"></span></td>
-                    </tr>
-                </tfoot>
-            </table>
-            <input type="text" placeholder="Remarks" class="remarks">
-        </div>
-
-        <button id="newButton">New</button>
-        <button id="generate-pdf">Export PDF</button>
-
-
+    <section id="header">
+        <h1>ACLOUD Price Lookup</h1>
+        <input id="mf-input" placeholder="mf">
+        <input id="na-input" placeholder="na">
+        <input id="pc-input" placeholder="pc">
     </section>
-    
+
+    <section id="input-group">
+        <div id="input">
+            <input id="client-input" placeholder="Client name">
+            <input id="category-profile-input" placeholder="Please enter category or profile no...">
+            <div id="category-suggestions" class="suggestions-container"></div>
+            <input id="description-input" placeholder="Please enter description...">
+            <div id="description-suggestions" class="suggestions-container"></div>
+            <input id="orderby-input" placeholder="Order by...">
+        </div>
+
+        <div id="button-group">
+            <button id="status">Normal</button>
+            <button id="search">Search</button>
+        </div>
+    </section>
+
+        <button id="filter-btn">Filter</button>
+        <div id="filter-options">
+            <h3>Select Columns:</h3>
+            <label class="filter-checkbox"><input type="checkbox" data-column="1" checked> Product Name</label>
+            <label class="filter-checkbox"><input type="checkbox" data-column="2" checked> Product No.</label>
+            <label class="filter-checkbox"><input type="checkbox" data-column="3" checked> Description</label>
+            <label class="filter-checkbox"><input type="checkbox" data-column="4" checked> THK(MM)</label>
+            <label class="filter-checkbox"><input type="checkbox" data-column="5" checked> Length(M)</label>
+            <label class="filter-checkbox"><input type="checkbox" data-column="6" checked> Color</label>
+            <label class="filter-checkbox"><input type="checkbox" data-column="7" checked> Material</label>
+        </div>
+
+    <section id="table">
+
+        <div id="client-name">Client name:</div>
+
+        <table class="product-table">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Profile No.</th>
+                    <th>Description</th>
+                    <th>THK(MM)</th>
+                    <th>Length(M)</th>
+                    <th>Color</th>
+                    <th>Material</th>
+                    <th>Quantity</th>
+                    <th>Price(RM)</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- 可以动态插入数据 --> 
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><strong>Total (RM):</strong> <span id="total-price">0.00</span></td>
+                    <td></td>
+                </tr>
+                
+                
+            </tfoot>
+        </table>
+    </section>
+
+    <section id="last-button">
+        <button id="newbutton">New</button>
+        <button id="export">Export PDF</button>
+    </section>
 
     <script src="main.js"></script>
-    
+
 </body>
 </html>
